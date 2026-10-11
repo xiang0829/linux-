@@ -25,3 +25,17 @@ When the assignment requires both Markdown and PDF, generate the PDF from the co
 ## Record boundaries
 
 The changelog is an index of Markdown submissions, not a copy of the coursework. Do not alter older entries when adding a later submission unless correcting a factual mistake.
+
+## Integrated coursework and exemplar improvements
+
+For an assignment that combines an experiment with textbook or video learning, keep a standalone experiment report when requested, and include its full analytical content at the beginning of the main assignment. Remove repeated signature and attribution introductions from the embedded copy; retain one top-level title per document. Verify the textbook's actual chapter title, section headings, page range, and software version before outlining the learning report.
+
+When a provided exemplar improves the report, adopt its useful structure without copying its authorship, screenshots, or personal experience. For kernel mechanism reports, place the complete, file-labelled teaching code near the start, then trace initialization, data structures, interrupts, scheduling, and context restoration. Pin the source version; preserve attribution and identify any learning edits.
+
+Analyze both first execution and resuming a suspended task. For time-slice examples, cover a forward transition such as 0 to 1 and a wraparound transition such as 3 to 0; connect register changes, saved stack contents, continuation labels, and log ordering. Distinguish an interrupt requesting scheduling from the point where switching actually occurs. Explain architecture and compiler assumptions rather than presenting a teaching example as production kernel code.
+
+Center the learning report on concrete questions, causes, solutions, and supporting evidence. Cover the assigned textbook and video topics separately. Use operational records for observed results and clearly labelled execution diagrams or theoretical output for source-derived behavior; do not invent execution logs, troubleshooting history, or video timestamps.
+
+On each new coursework submission, review the current skill against the task and any supplied exemplar, add only improvements supported by that use, and record the submission plus skill changes in the existing changelog. Preserve previous entries.
+
+When separate experiment and assignment PDFs are requested, export each from its corresponding final Markdown. Check Chinese fonts, code wrapping, tables, screenshots, page breaks, and source links. Validate repository-relative assets and internal links before submitting all requested outputs, assets, skill changes, and the new changelog entry together. Exclude textbook PDFs and temporary conversion files.
