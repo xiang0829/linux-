@@ -14,6 +14,8 @@ Use this skill for Markdown coursework submitted to this repository.
 3. Check that the document has one meaningful top-level title, a readable heading hierarchy, fenced code blocks with language labels where applicable, and source links for externally referenced material. Embed experiment screenshots with repository-relative paths and captions stating what each image shows.
 4. Commit the Markdown file and its changelog update together. Use a short message that identifies the submission, such as `Add Linux command practice`.
 
+For submission of existing user-supplied reports, preserve the finished Markdown and PDF contents. Check the PDF pairings and repository-relative image references, and upload the requested reports plus their referenced images while retaining relative subdirectories. Map a duplicated local wrapper folder to the single repository folder named by the user. Include separate source files or build artifacts only when requested or linked as required attachments.
+
 ## Practice-report additions
 
 For command-practice reports, give each command or task its own third-level heading. State the command, its purpose, the observed result, and any environmental limitation or correction. Preserve useful caveats such as shell built-ins not being located by `which`, prerequisite files for examples, permission boundaries, and differences between WSL and a full Linux system.
