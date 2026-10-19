@@ -86,7 +86,7 @@ hello 20262822
 
 ## 提交材料
 
-- 代码：[hello 命令源码（menu/test.c）](https://github.com/xiang0829/linux-/blob/codex/week5-menuos-20262822/%E7%AC%AC%E4%BA%94%E5%91%A8MenuOS%E6%89%A9%E5%B1%95%E4%BD%9C%E4%B8%9A/menu/test.c)。
+- 代码：[hello 命令源码（menu/test.c）](https://github.com/xiang0829/linux-/blob/7b5a23e62a0b46ac91322c109600cb35cffa36aa/%E7%AC%AC%E4%BA%94%E5%91%A8MenuOS%E6%89%A9%E5%B1%95%E4%BD%9C%E4%B8%9A/menu/test.c#L125)。
 - 附件：优先提交 `screenshots/05-menuos-hello-ubuntu.png`；如可提交多个附件，可同时提交 `03` 环境截图和 `04` 构建截图。
 
-代码分支：`codex/week5-menuos-20262822`。
+作业保存在仓库的 `main` 分支，代码链接固定到本次提交，便于核对。
