@@ -1,0 +1,7 @@
+.tools/
+menu/.git
+menu/*.o
+menu/test
+menu/init
+menu/hello
+rootfs.img
