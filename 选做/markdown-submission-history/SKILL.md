@@ -44,4 +44,8 @@ Center the learning report on concrete questions, causes, solutions, and support
 
 On each new coursework submission, review the current skill against the task and any supplied exemplar, add only improvements supported by that use, and record the submission plus skill changes in the existing changelog. Preserve previous entries.
 
+When the user requests a batch with one final skill update, finish and check all reports first, then make one shared skill revision and one changelog entry listing the batch. For a summary report, link to the actual submitted reports and provide a short reading introduction for each; do not substitute local source-material paths or invent earlier experiment titles.
+
+When supplied notes and screenshots disagree, verify numeric results against the original images and the matching source version. Distinguish executable architecture from syscall ABI, service-handler breakpoints from hardware entry, and task-construction fields from final process identity. Explain fork, exec, privilege transitions, and task switches separately; yield does not guarantee alternation. State the exact instruction boundary required for stack-pointer comparisons. Preserve original test attachments and identify corrections to comments or proposed improvements in the analysis rather than presenting them as executed results.
+
 When separate experiment and assignment PDFs are requested, export each from its corresponding final Markdown. Check Chinese fonts, code wrapping, tables, screenshots, page breaks, and source links. Validate repository-relative assets and internal links before submitting all requested outputs, assets, skill changes, and the new changelog entry together. Exclude textbook PDFs and temporary conversion files.
