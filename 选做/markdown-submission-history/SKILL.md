@@ -58,6 +58,12 @@ Before drafting or revising reports, map every task-page requirement to a specif
 
 Check task-specific conclusions and diagrams as well as headings: generalize system-call handling to ordinary interrupts when required; explain first execution and saved kernel/user stack layouts for fork and exec; relate scheduling to Linux's general execution process. For a final learning summary, index every actual experiment by number, add a useful introduction and current assignment links, and cover both gains and regrets. Preserve original observations and assets; label source-derived diagrams as mechanism illustrations. After a batch audit, make one shared skill revision and one changelog entry, with a concise requirement-to-report checklist when useful.
 
+## Build-based experiments
+
+For reports that walk through an IDE build (static library, DLL, linker settings), present each configuration step as a table of 设置位置 / 设置项 / 值 / 作用 instead of prose, and quote the produced artifact sizes so that an import library can be told apart from a static library. Keep link-time needs (the import `.lib` on the linker line) separate from run-time needs (the `.dll` beside the `.exe`), and name the error each omission produces. When the task requires a conditional breakpoint, show both the settings window and the stopped frame, and cite a loaded-module window as evidence that the code under the breakpoint really lives in the library.
+
+Number figures strictly in order of appearance and keep the figure-list table consistent with the captions; a run result placed before the debugging section must not keep a later number. If the task explicitly demands full-screen captures, keep them uncropped at page width and restate the decisive lines (build summary, program output) as text blocks in the body rather than cropping the images.
+
 ## Multi-week batches
 
 For a request covering several consecutive weeks, confirm the week-to-chapter-to-experiment mapping from the course teaching plan before drafting; do not infer it from a simple N-1 rule, because the experiment number, textbook chapter, and video topic can advance at different rates. Build each week as one integrated document: the full experiment body first, then chapter-specific learning questions, then the named video topic. Keep one signature, originality statement, and course attribution per document; put the course URL in visible text as well as in the link target so that it survives PDF export and plain-text checks.
