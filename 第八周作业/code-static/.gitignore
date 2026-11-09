@@ -1,0 +1,12 @@
+# 生成产物与本地用户设置，不入库
+x64/
+Debug/
+Release/
+*.user
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.exp
+*.tlog
+*.log
